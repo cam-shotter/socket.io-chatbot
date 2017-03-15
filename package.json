@@ -1,0 +1,29 @@
+{
+  "name": "socket.io-chatbot",
+  "version": "1.0.0",
+  "description": "A chat-bot which uses socket.io ",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"node test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cam-shotter/socket.io-chatbot.git"
+  },
+  "keywords": [
+    "socket.io",
+    "chatbot",
+    "websockets",
+    "node.js",
+    "express.js"
+  ],
+  "author": "cameron-shotter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cam-shotter/socket.io-chatbot/issues"
+  },
+  "homepage": "https://github.com/cam-shotter/socket.io-chatbot#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
