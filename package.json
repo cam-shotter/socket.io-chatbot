@@ -4,7 +4,9 @@
   "description": "A chat-bot which uses socket.io ",
   "main": "index.js",
   "scripts": {
-    "test": "\"node test.js\""
+    "test": "node test.js",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,10 @@
   },
   "homepage": "https://github.com/cam-shotter/socket.io-chatbot#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
